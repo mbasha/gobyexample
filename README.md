@@ -1,2 +1,2 @@
 # gobyexample
-Some small examples I am working through for different features of Go. Currently following https://gobyexample.com/
+Some small code snippets I am working through implementing different features of Go. Currently following https://gobyexample.com/
