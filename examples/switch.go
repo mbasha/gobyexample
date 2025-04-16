@@ -20,7 +20,7 @@ func Switch() {
 
 	switch time.Now().Weekday() {
 	case time.Saturday, time.Sunday:
-		fmt.Println("It's the weekend")
+		fmt.Println("It's the weekend, baby!")
 	default:
 		fmt.Println("It's a weekday")
 	}
