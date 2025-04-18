@@ -28,6 +28,8 @@ func main() {
 		Variables()
 	case "constant":
 		Constant()
+	case "arrays":
+		Arrays()
 	default:
 		fmt.Printf("Unknown example: %s\n", example)
 	}
