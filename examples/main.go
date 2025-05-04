@@ -32,6 +32,14 @@ func main() {
 		Arrays()
 	case "slices":
 		Slices()
+	case "maps":
+		Maps()
+	case "functions":
+		Functions()
+	case "multiple-return-values":
+		MultipleReturnValues()
+	case "variadic-functions":
+		VariadicFunctions()
 	default:
 		fmt.Printf("Unknown example: %s\n", example)
 	}
