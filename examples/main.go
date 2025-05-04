@@ -30,6 +30,8 @@ func main() {
 		Constant()
 	case "arrays":
 		Arrays()
+	case "slices":
+		Slices()
 	default:
 		fmt.Printf("Unknown example: %s\n", example)
 	}
